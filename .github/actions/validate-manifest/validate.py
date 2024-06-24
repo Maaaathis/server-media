@@ -51,9 +51,12 @@ def main():
 
         # Validate wildcards
         if 'server_wildcards' in data:
+            print(f'server_wildcards found')
             for wildcard in data['server_wildcards']:
+                print(f'Validating: {wildcard}')
                 if not wildcard.startswith('%.'):
                     comment += '- Invalid wildcard entry. Each entry must start with **%.**. Further information here: https://en.wikipedia.org/wiki/Wildcard_DNS_record (`server_wildcards`)\n'
+                    print(f'Error: Invalid wildcard entry: {wildcard}')
                 else:
                     print(f'Valid wildcard: {wildcard}')
 
