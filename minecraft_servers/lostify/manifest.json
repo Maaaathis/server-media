@@ -3,7 +3,7 @@
   "nice_name": "Lostify",
   "direct_ip": "play.lostify.net",
   "server_wildcards": [
-    "%.lostify.net"
+    "play.lostify.net"
   ],
   "supported_languages": [
      "en",
