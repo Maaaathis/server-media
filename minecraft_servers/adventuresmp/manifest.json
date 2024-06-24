@@ -2,6 +2,7 @@
     "server_name": "adventuresmp",
     "nice_name": "AdventureSMP",
     "direct_ip": "adventuresmp.de",
+    "server_wildcards": ["play.adventuresmp.de"],
     "supported_languages": [
         "de"
     ],
