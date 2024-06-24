@@ -30,7 +30,7 @@ jobs:
         run:
           cp ${HOME}/files.json ./
       - name: Validate manifest
-        uses: maaaathis/labymod-server-media/.github/actions/validate-manifest@validate-wildcards
+        uses: maaaathis/labymod-server-media/.github/actions/validate-manifest@wildcard-test-1
         env:
           PR_ID: ${{ github.event.pull_request.number }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
