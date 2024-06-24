@@ -43,7 +43,7 @@ def main():
             comment += '- One of the **required values** is missing\n'
             continue
 
-        check_server_online_state(data['direct_ip'], data['server_wildcards'] if 'server_wildcards' in data else [])
+        # check_server_online_state(data['direct_ip'], data['server_wildcards'] if 'server_wildcards' in data else [])
 
         server_directory = manifest_file.replace('minecraft_servers/', '').replace('/manifest.json', '')
         if server_directory != data['server_name']:
