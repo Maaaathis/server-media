@@ -54,6 +54,8 @@ def main():
             for wildcard in data['server_wildcards']:
                 if not wildcard.startswith('%.'):
                     comment += '- Invalid wildcard entry. Each entry must start with **%.**. Further information here: https://en.wikipedia.org/wiki/Wildcard_DNS_record (`server_wildcards`)\n'
+                else:
+                    print(f'Valid wildcard: {wildcard}')
 
         # Check for https
         if 'social' in data:
