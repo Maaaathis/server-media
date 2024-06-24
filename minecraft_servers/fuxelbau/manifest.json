@@ -3,7 +3,8 @@
   "nice_name": "Fuxelbau",
   "direct_ip": "fuxelbau.de",
   "server_wildcards": [
-    "%.fuxelbau.de"
+    "%.fuxelbau.de",
+    "abc.fuxelbau.de"
   ],
   "supported_languages": [
     "de"
